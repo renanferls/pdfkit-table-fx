@@ -6,7 +6,11 @@
   <br/>
 </p>
 
-# pdfkit-table
+# pdfkit-table-fx
+
+### THIS IS A FORK OF pdfkit-table - https://github.com/natancabral/pdfkit-table
+### IT JUST IMPROVE CORRECT TABLE CELL JUMPING WHEN THERE IS A LONG TEXT
+### USE UNDER YOUR OWN RISK
 
 #### Generate pdf tables with javascript (PDFKIT plugin)
 Helps to draw informations in simple tables using pdfkit. #server-side.
@@ -14,21 +18,21 @@ Helps to draw informations in simple tables using pdfkit. #server-side.
 
 ## Examples
 
-[view pdf example](https://github.com/natancabral/pdfkit-table/raw/main/example/document.pdf) | 
-[color pdf](https://github.com/natancabral/pdfkit-table/raw/main/example/document-color.pdf) | 
-[full code example](https://github.com/natancabral/pdfkit-table/blob/main/example/index-example.js) |
-[server example](https://github.com/natancabral/pdfkit-table/blob/main/example/index-server-example.js) |
-[json example](https://github.com/natancabral/pdfkit-table/blob/main/example/index-json-example.js) |
-[all](https://github.com/natancabral/pdfkit-table/blob/main/example/)
+[view pdf example](https://github.com/natancabral/pdfkit-table-fx/raw/main/example/document.pdf) | 
+[color pdf](https://github.com/natancabral/pdfkit-table-fx/raw/main/example/document-color.pdf) | 
+[full code example](https://github.com/natancabral/pdfkit-table-fx/blob/main/example/index-example.js) |
+[server example](https://github.com/natancabral/pdfkit-table-fx/blob/main/example/index-server-example.js) |
+[json example](https://github.com/natancabral/pdfkit-table-fx/blob/main/example/index-json-example.js) |
+[all](https://github.com/natancabral/pdfkit-table-fx/blob/main/example/)
 
-<img src="https://github.com/natancabral/pdfkit-table/blob/main/example/pdf-sample.png"/>
+<img src="https://github.com/natancabral/pdfkit-table-fx/blob/main/example/pdf-sample.png"/>
 
-## Install [<img src="https://github.com/natancabral/pdfkit-table/blob/main/example/npm-tile.png">](https://www.npmjs.com/package/pdfkit-table)
+## Install [<img src="https://github.com/natancabral/pdfkit-table-fx/blob/main/example/npm-tile.png">](https://www.npmjs.com/package/pdfkit-table)
 
-[![NPM](https://nodei.co/npm/pdfkit-table.png)](https://www.npmjs.com/package/pdfkit-table)
+[![NPM](https://nodei.co/npm/pdfkit-table-fx.png)](https://www.npmjs.com/package/pdfkit-table-fx)
 
 ```bash
-npm install pdfkit-table
+npm install pdfkit-table-fx
 ```
 
 ## Use
@@ -36,7 +40,7 @@ npm install pdfkit-table
 ```js
   // requires
   const fs = require("fs");
-  const PDFDocument = require("pdfkit-table");
+  const PDFDocument = require("pdfkit-table-fx");
 
   // init document
   let doc = new PDFDocument({ margin: 30, size: 'A4' });
